@@ -8,7 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class GoogleSearch {
 
@@ -17,9 +18,10 @@ public class GoogleSearch {
 	@Test
 	public void demo1()throws InterruptedException{
 		
-		//WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();
 		
-		System.setProperty("webdriver.chrome.driver", "/Automation/MavenDemoTests/lib/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "/Automation/MavenDemoTests/lib/chromedriver.exe");
+		
 		
 		WebDriver driver = new ChromeDriver();
 		
