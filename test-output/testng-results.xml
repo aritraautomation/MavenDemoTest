@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2019-12-18T10:51:21Z" finished-at="2019-12-18T10:51:21Z">
+  <suite name="Suite" duration-ms="16093" started-at="2019-12-18T11:35:51Z" finished-at="2019-12-18T11:36:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2019-12-18T10:51:21Z" finished-at="2019-12-18T10:51:21Z">
-      <class name="org.qa.demo.DemoTest1">
-        <test-method status="PASS" signature="div()[pri:0, instance:org.qa.demo.DemoTest1@64bfbc86]" name="div" duration-ms="8" started-at="2019-12-18T10:51:21Z" finished-at="2019-12-18T10:51:21Z">
+    <test name="Test" duration-ms="16093" started-at="2019-12-18T11:35:51Z" finished-at="2019-12-18T11:36:08Z">
+      <class name="org.qa.seleniumDemo.GoogleSearch">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:org.qa.seleniumDemo.GoogleSearch@7e0b0338]" name="demo1" duration-ms="16069" started-at="2019-12-18T11:35:51Z" finished-at="2019-12-18T11:36:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:org.qa.demo.DemoTest1@64bfbc86]" name="multi" duration-ms="0" started-at="2019-12-18T10:51:21Z" finished-at="2019-12-18T10:51:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi -->
-      </class> <!-- org.qa.demo.DemoTest1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- demo1 -->
+      </class> <!-- org.qa.seleniumDemo.GoogleSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

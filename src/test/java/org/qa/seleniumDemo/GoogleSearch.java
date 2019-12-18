@@ -6,12 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 //import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GoogleSearch {
 
-	public static void main(String[] args) throws InterruptedException {
+	//public static void main(String[] args) throws InterruptedException {
+	
+	@Test
+	public void demo1()throws InterruptedException{
 		
 		//WebDriverManager.chromedriver().setup();
 		

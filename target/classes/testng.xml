@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="Suite" parallel="false">
   <test name="Test">
-  		<packages>
-  			<package name="org.qa.*"/>
-  		</packages>
-   
+  		<!-- <packages>
+			<package name="org.qa.demo"/>
+  			<package name="org.qa.javasample"/>
+   			<package name="org.qa.seleniumDemo"/> 
+   			</packages> -->
+   			
+  			<classes>
+  				<class name="org.qa.seleniumDemo.GoogleSearch"/>  				
+  			</classes>   
   </test> <!-- Test -->
 </suite> <!-- Suite -->
