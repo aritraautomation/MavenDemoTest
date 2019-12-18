@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
   		<packages>
-  			<package name="org.qa.demo.*"/>
+  			<package name="org.qa.*"/>
   		</packages>
    
   </test> <!-- Test -->
