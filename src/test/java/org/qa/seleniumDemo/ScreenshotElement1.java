@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ScreenshotElement1 {
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws InterruptedException
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -24,8 +24,13 @@ public class ScreenshotElement1 {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://app.hubspot.com/login");
+		Thread.sleep(4000);
 		
-		WebElement email = driver.findElement(By.id("username"));
+		WebElement email = driver.findElement(By.cssSelector("input[id=username]"));
+		//WebElement email = driver.findElement(By("username"));
+		
+		//WebElement email = driver.findElement(By.id("username"));
+		
 		WebElement password = driver.findElement(By.id("password"));
 		WebElement logIn = driver.findElement(By.id("loginBtn"));
 		WebElement forgetLink = driver.findElement(By.linkText("Forgot my password"));

@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.qa.seleniumDemo.GoogleSearch">
+      <class name="org.qa.seleniumDemo.MyTests">
         <methods>
-          <include name="demo1"/>
+          <include name="m2"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- org.qa.seleniumDemo.GoogleSearch -->
+      </class> <!-- org.qa.seleniumDemo.MyTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

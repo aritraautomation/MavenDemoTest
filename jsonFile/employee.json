@@ -1,0 +1,16 @@
+{
+	"firstName":"John",
+	"lastName":"Kenedy",
+	"address":[
+		{
+			"street":"abc",
+			"city":"kolkata",
+			"state":"West Bengal"
+		},		
+		{
+			"street":"vbs",
+			"city":"Hyderabad",
+			"state":"TL"
+		}
+	]
+}
